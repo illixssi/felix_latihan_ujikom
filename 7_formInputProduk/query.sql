@@ -1,0 +1,8 @@
+CREATE DATABASE data;
+
+CREATE TABLE printer (
+    no INT AUTO_INCREMENT PRIMARY KEY,
+    nama_merek VARCHAR(20) NOT NULL,
+    warna VARCHAR(10) NOT NULL,
+    jumlah INT NOT NULL
+);
